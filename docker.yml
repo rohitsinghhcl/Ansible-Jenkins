@@ -27,7 +27,7 @@
         name: bottlecontainer
         image: rohitsinghdang/ansibleimage:latest
         ports:
-          - "4040:8080"
+          - "4041:8080"
 
   handlers:
     - name: start docker
